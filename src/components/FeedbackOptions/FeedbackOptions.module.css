@@ -1,0 +1,23 @@
+.feedContainer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.feedbackBtn {
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background: #6e6d70;
+  letter-spacing: 0.04em;
+  transition: 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.feedbackBtn:hover,
+.feedbackBtn:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
